@@ -28,6 +28,5 @@ public class MainActivity extends AppCompatActivity {
             counter = 0;
             btn.setText("Enough to click. Go to new start!");
         }
-
     }
 }

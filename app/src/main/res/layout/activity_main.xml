@@ -4,16 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FBFBFB"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#F8CFDD"
+        android:backgroundTint="@color/white"
         android:onClick="six_clicks"
         android:text="Click me"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColorHighlight="#F7F5F5"
+        android:textColorLink="#AFB3D3"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="@color/material_dynamic_neutral_variant40"
+        app:strokeColor="@color/white" />
 </androidx.constraintlayout.widget.ConstraintLayout>
